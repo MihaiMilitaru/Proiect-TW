@@ -1,0 +1,317 @@
+:root {
+    --main-color: #c0392b;
+    --body-bg: #000000;
+    --box-bg: #0a0a53;
+    --text-color: #ffffff;
+
+    --space-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #24247e;
+}
+
+.nav {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    height: var(--nav-height);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-menu {
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu li ~ li {
+    margin-left: 2rem;
+}
+
+
+
+.nav li{
+    font-size: 1.3rem;
+}
+
+.nav-menu a:hover {
+    color: var(--main-color);
+}
+
+.nav-menu a.btn:hover{
+    color:#ffffff;
+}
+
+.userlg{
+    font-size: 1.50rem;
+}
+
+
+#hero{
+    margin:0px;
+    display:flex;
+    width: 100%;
+    height: 700px;
+    background: url('./mercedesfleet.jpeg') no-repeat center/cover;
+    color:#ffffff;
+}
+
+#hero2{
+    margin:0px;
+    display:flex;
+    width: 100%;
+    height: 700px;
+    background: url('./bmwfleet.jpeg') no-repeat center/cover;
+    color:#ffffff;
+}
+
+#hero3{
+    margin:0px;
+    display:flex;
+    width: 100%;
+    height: 700px;
+    background: url('./audifleet.jpeg') no-repeat center/cover;
+    color:#ffffff;
+}
+
+
+.container{
+    width:90%;
+    height: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items:flex-end;
+}
+
+.container .info h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+
+}
+
+/* ...................................................................Sedans............................................................. */
+
+#sedan_suv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .titlumasina a:hover{
+    color:#ffffff;
+}
+
+.card .titlumasina a{
+    color: #505055;
+}
+
+
+
+.container_masini{
+    gap:30px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f7;
+    width: 450px;
+    margin-bottom: 20px;
+    
+}
+.card-image{
+    height: 80%;
+    
+  
+}
+
+.titlumasina{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #505055;
+}
+
+.card:hover{
+    background-color: #353231;
+    cursor: pointer;
+    transform: translateY(5mm);
+    transition: 1s;
+}
+
+.card:hover a{
+    color: #ffffff;
+}
+
+
+.card:hover{
+    opacity: 70%;
+}
+
+.card:hover .titlumasina{
+    color: #ffffff;
+}
+
+.titlu_caroserie{
+    display: flex;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 300;   
+}
+
+.divt{
+    margin-left: 20px;
+}
+
+/* .................................................Dropdown models.................................................. */
+
+.dropdown_models{
+    position:relative;
+    display: inline-block;
+}
+
+
+.dropdown_models-content{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2929b4;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn:hover{
+    border-radius: 5px;
+}
+
+.dropdown_models:hover .dropdown_models-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ....................................................Media Query.......................................... */
+
+@media screen and (max-width:965px) and (min-width:534px) {
+    .titlu_caroserie{
+        font-size: 2rem;
+    }
+
+    #hero .container .info h1{
+        font-size: 2.5rem;
+    }
+
+    #hero{
+        margin-top: -300px;
+    }
+
+    #hero2 .container .info h1{
+        font-size: 2.5rem;
+    }
+
+    #hero2{
+        margin-top: -300px;
+    }
+
+    #hero3 .container .info h1{
+        font-size: 2.5rem;
+    }
+
+    #hero3{
+        margin-top: -300px;
+    }
+    
+    
+}
+
+@media screen and (max-width:533px) {
+    .titlu_caroserie{
+        font-size: 2rem;
+    }
+
+    #hero{
+        display: none;
+    }
+
+    #sedan_suv{
+        margin-top: 140px;
+    }
+
+    #hero2{
+        display: none;
+    }
+
+    #hero3{
+        display: none;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .divt{
+        font-size: 1.3rem;
+        
+    }
+
+    .titlu_caroserie{
+        justify-content: center;
+    }
+
+}

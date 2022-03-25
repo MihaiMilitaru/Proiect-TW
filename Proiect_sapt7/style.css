@@ -1,0 +1,911 @@
+:root {
+    --main-color: #c0392b;
+    --body-bg: #000000;
+    --box-bg: #0a0a53;
+    --text-color: #ffffff;
+
+    --space-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #24247e;
+}
+
+.nav {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    height: var(--nav-height);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-menu {
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu li ~ li {
+    margin-left: 2rem;
+}
+
+
+
+.nav li{
+    font-size: 1.3rem;
+}
+
+.nav-menu a:hover {
+    color: var(--main-color);
+}
+
+.nav-menu a.btn:hover{
+    color:#ffffff;
+}
+
+.userlg{
+    font-size: 1.50rem;
+}
+
+/* .hamburger{
+    margin-top: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+} */
+
+.container1{
+    width: 100%;
+    display: flex;
+    gap:10px;
+
+}
+
+.container_poze{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.x5{
+    width: full;
+    min-width: 300px;
+}
+
+.container_cls_q8{
+    width: full;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.poza1{
+    height: full;
+    width:50%;
+}
+
+
+.container_scris{
+    align-items: center;
+    margin-top: 5%;
+    font-size: 3rem;
+    font-weight: 440;
+}
+
+.blueclr{
+    font-size: 3rem;
+    color:#2929b4;
+}
+
+
+.scris1{
+    width: 50%;
+    min-width: 300px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_scris2{
+    width: full;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+.container_story{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poza2{
+    max-height: 400px;
+    max-width: 700px;
+    width: full;
+    align-self: center;
+}
+
+.div_poze_37{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content:space-between;
+    gap:10px;
+}
+
+.poza3{
+    max-height: 400px;
+    max-width: 700px;
+}
+/* .................................................Dropdown models.................................................. */
+
+.dropdown_models{
+    position:relative;
+    display: inline-block;
+}
+
+
+.dropdown_models-content{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2929b4;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn:hover{
+    border-radius: 5px;
+}
+
+.dropdown_models:hover .dropdown_models-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ..................................................Brabus section.................................................... */
+
+.titlu_mercedes{
+    margin-left: 25px;
+    font-size: 3rem;
+    font-weight: 440;
+    color: #ca0000;
+}
+
+.big_mercedes{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gwagon_poz{
+    width: 40%;
+    align-self: center;
+    overflow:hidden;
+}
+
+.gwagon_poz img{
+    width:100%;
+    transition: 2s;
+
+}
+
+.gwagon_poz img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+
+
+}
+
+.gscris{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.gscrisred{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #9b190b;
+}
+
+.descrierebrabus{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 100%);
+}
+
+.det_brabus{
+    gap: 7px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.det_brabus a{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #9b190b;
+}
+
+.det_brabus a:hover{
+    color: #69615f;
+}
+
+
+
+
+/*..................................................Brabus End Section.................................................. */
+
+
+/*..................................................Maybach Section....................................................... */
+
+.maybach{
+    gap: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sclass_poz{
+    align-self: center;
+    overflow: hidden;
+    width: 40%;
+}
+
+.sclass_poz img{
+    width:100%;
+    transition: 2s;
+}
+
+
+.sclass_poz img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+
+
+}
+
+.sscris{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.sscrisred{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #9c2121;
+}
+
+
+.descrieres{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 100%);
+}
+
+.det_s{
+    margin-left: 15px;
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.det_s a{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #9c2b2b;
+}
+
+.det_s a:hover{
+    color: #945207;
+}
+
+
+/*..................................................Maybach Section Ending....................................................... */
+
+
+/*..................................................AMG Section ................................................................. */
+
+
+.amg_poz{
+    overflow:hidden;
+    width: 40%;
+    align-self: center;
+}
+
+.amg_poz img{
+    width:100%;
+    transition: 2s;
+
+}
+
+.amg_poz img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+
+
+}
+
+.amgscris{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.amgscrisy{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #e2c20e;
+}
+
+.descriereamg{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 100%);
+}
+
+.det_amg{
+    margin-left: 15px;
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.det_amg a{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #9b190b;
+}
+
+.det_amg a:hover{
+    color: #e2c20e;
+}
+
+/*..................................................AMG Section Ending ................................................................. */
+
+
+
+
+.titlu_bmw{
+    margin-left: 25px;
+    font-size: 3rem;
+    font-weight: 440;
+    color: #ffffff;
+}
+
+.titlu_eco{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 3rem;
+    font-weight: 440;
+    color: #0ab913;
+}
+
+.bmw_container{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardbmw{
+    display: flex;
+    flex-direction: column;
+    background-color: #69615f;
+    width: 450px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    
+}
+.card-image{
+    height: 85%;
+    border-radius: 6px;
+    overflow: hidden;
+  
+}
+
+.titlubmw{
+    display: flex;
+    justify-content: center;
+    
+    color: #2929b4;
+}
+
+.cardbmw:hover{
+    background-color: #353231;
+    cursor: pointer;
+    transform: translateY(5mm);
+    transition: 1s;
+}
+
+.cardbmw:hover{
+    opacity: 70%;
+}
+
+.titlu_bmw p{
+
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.container_scris2 p{
+    margin-left: 15px;
+}
+
+.container_scris2{
+    margin-bottom: 15px;
+}
+
+
+
+/* ..................................................Media querry....................................................... */
+
+
+@media screen and (max-width:1325px) and (min-width: 980px){
+    .container_poze{
+        width: 30%;
+        gap:0px;
+    }
+    .conatiner1{
+        flex-direction: column;
+    }
+
+    .container_cls_q8{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poza1{
+        width: 100%;
+    }
+
+    .scris1{
+        width: 70%;
+    }
+
+    .big_mercedes{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .maybach{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:387px){
+
+    .container1{
+        margin-top: 60px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container_poze{
+        display: none;
+    }
+
+    .scris1{
+        width: 100%;
+    }
+    
+    .container_scris{
+        width: 100%;
+        padding-right: 10px;
+        font-size: 60%;
+    }
+
+    .container_scris2{
+        width:100%;
+    }
+
+    .container_story{
+        width: 100%;
+    }
+
+    .div_poze_37{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .poza3{
+        max-width: 375px;
+    }
+
+    .poza2{
+        max-width: 375px;
+    }
+
+    .scris1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .container_scris{
+        font-size: 160%;
+    }
+
+
+    .big_mercedes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .maybach{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .det_s .det_brabus .det_amg{
+        width: 100%;
+    }
+
+    .sclass_poz .amg_poz .gwagon_poz{
+        align-self: center;
+    }
+
+    .big_mercedes .det_brabus .descrierebrabus{
+        font-size: 1.1rem;
+    }
+
+    .big_mercedes .det_brabus .gscris{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_brabus .gscris .gscrisred{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_brabus .gscris a{
+        font-size: 1.5rem;
+    }
+
+    .titlu_mercedes{
+        font-size: 1.6rem;
+    }
+
+    .gwagon_poz{
+        display: none;
+    }
+    
+    /* ........... */
+
+    .big_mercedes .det_amg .descriereamg{
+        font-size: 1.1rem;
+    }
+
+    .big_mercedes .det_amg .amgscris{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_amg .amgscris .amgscrisy{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_amg .amgscris a{
+        font-size: 1.5rem;
+    }
+
+    .amg_poz{
+        display: none;
+    }
+
+    /* .............. */
+
+    .maybach .det_s .descrieres{
+        font-size: 1.1rem;
+    }
+
+    .maybach .det_s .sscris{
+        font-size: 1.5rem;
+    }
+
+    .maybach .det_s .sscris .sscrisred{
+        font-size: 1.5rem;
+    }
+
+    .maybach .det_s .sscris a{
+        font-size: 1.5rem;
+    }
+
+    .sclass_poz{
+        display: none;
+    }
+
+    .titlu_bmw{
+        font-size: 1.6rem;
+    }
+
+    .titlu_bmw .titlu_eco{
+        font-size: 1.6rem;
+    }
+
+    .bmw_container{
+        width: 100%;
+        display: flex;
+        margin:0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardbmw{
+        width: 80%;
+        align-self: center;
+    }
+}
+
+
+@media screen and (max-width:979px) and (min-width:388px){
+/* 
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #nav-menu{
+        position: fixed;
+        left:-100%;
+        top:70px;
+        gap:0;
+        flex-direction: column;
+        background-color: #2929b4;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    #nav-menu{
+        margin: 16px 0;
+    }
+
+    #nav-menu.active{
+        left:0;
+    } */
+
+
+    .container1{
+        margin-top: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container_poze{
+        display: none;
+    }
+
+    .scris1{
+        width: 100%;
+    }
+    
+    .container_scris{
+        width: 100%;
+        padding-right: 10px;
+        font-size: 60%;
+    }
+
+    .container_scris2{
+        width:100%;
+    }
+
+    .container_story{
+        width: 100%;
+    }
+
+    .div_poze_37{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .poza3{
+        max-width: 375px;
+    }
+
+    .poza2{
+        max-width: 375px;
+    }
+
+    .scris1{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .container_scris{
+        font-size: 160%;
+    }
+
+
+    .big_mercedes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .maybach{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .det_s .det_brabus .det_amg{
+        width: 100%;
+    }
+
+    .sclass_poz .amg_poz .gwagon_poz{
+        align-self: center;
+    }
+
+    .big_mercedes .det_brabus .descrierebrabus{
+        font-size: 1.1rem;
+    }
+
+    .big_mercedes .det_brabus .gscris{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_brabus .gscris .gscrisred{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_brabus .gscris a{
+        font-size: 1.5rem;
+    }
+
+    .titlu_mercedes{
+        font-size: 1.6rem;
+    }
+
+    .gwagon_poz{
+        display: none;
+    }
+    
+    /* ........... */
+
+    .big_mercedes .det_amg .descriereamg{
+        font-size: 1.1rem;
+    }
+
+    .big_mercedes .det_amg .amgscris{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_amg .amgscris .amgscrisy{
+        font-size: 1.5rem;
+    }
+
+    .big_mercedes .det_amg .amgscris a{
+        font-size: 1.5rem;
+    }
+
+    .amg_poz{
+        display: none;
+    }
+
+    /* .............. */
+
+    .maybach .det_s .descrieres{
+        font-size: 1.1rem;
+    }
+
+    .maybach .det_s .sscris{
+        font-size: 1.5rem;
+    }
+
+    .maybach .det_s .sscris .sscrisred{
+        font-size: 1.5rem;
+    }
+
+    .maybach .det_s .sscris a{
+        font-size: 1.5rem;
+    }
+
+    .sclass_poz{
+        display: none;
+    }
+
+    .titlu_bmw{
+        font-size: 1.6rem;
+    }
+
+    .titlu_bmw .titlu_eco{
+        font-size: 1.6rem;
+    }
+
+    .bmw_container{
+        width: 100%;
+        display: flex;
+        margin:0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardbmw{
+        width: 80%;
+        align-self: center;
+    }
+}
