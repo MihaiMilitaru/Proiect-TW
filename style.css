@@ -72,7 +72,7 @@ img {
 }
 
 .nav-menu li ~ li {
-    margin-left: 2rem;
+    margin-left: 1.7rem;
 }
 
 
@@ -491,7 +491,7 @@ img {
     opacity: 70%;
 }
 
-.titlu_bmw p{
+.titlubmw p{
 
     font-size: 1.7rem;
     font-weight: 200;

@@ -423,6 +423,11 @@ th{
 
 
 @media screen and (max-width:576px){
+
+    subcontainer_story_specs{
+        display: none;
+    }
+
     table{
         display: none;
     }
