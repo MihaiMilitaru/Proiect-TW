@@ -112,7 +112,7 @@ img {
     align-items:flex-end;
 }
 
-.container .info h1{
+.container .info p{
     font-size: 4rem;
     margin-bottom: 10px;
     font-weight: 300;
@@ -286,11 +286,6 @@ table, th, td{
 table{
     width: 90%;
     margin-bottom: 50px;
-}
-
-
-.centrerow{
-    text-align: centre;
 }
 
 

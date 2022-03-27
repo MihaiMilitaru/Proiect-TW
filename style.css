@@ -127,12 +127,12 @@ img {
 }
 
 .x5{
-    width: full;
+    width: 100%;
     min-width: 300px;
 }
 
 .container_cls_q8{
-    width: full;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -140,7 +140,7 @@ img {
 }
 
 .poza1{
-    height: full;
+    height: 100%;
     width:50%;
 }
 
@@ -168,7 +168,7 @@ img {
 }
 
 .container_scris2{
-    width: full;
+    width: 100%;
     color: #ffffff;
     font-size: 1rem;
     font-weight: 100;
@@ -184,7 +184,7 @@ img {
 .poza2{
     max-height: 400px;
     max-width: 700px;
-    width: full;
+    width: 100%;
     align-self: center;
 }
 
