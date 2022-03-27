@@ -16,7 +16,7 @@
 body {
     font-family: "Cairo", sans-serif;
     background-color: var(--body-bg);
-    background: url('bkbmw.jpeg');
+    background: url('../Images/bkbmw.jpeg');
     color: var(--text-color);
     width: 100%;
 }
