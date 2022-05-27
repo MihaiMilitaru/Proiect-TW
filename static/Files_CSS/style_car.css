@@ -335,7 +335,20 @@ th{
     border-radius: 3%;
 }
 
+#buton2{
+    font-size: 25px;
+    font-weight: 12px;
+    height: 100px;
+    width: 200px;
+    background-color: #4e4e92;
+    border-radius: 3%;
+}
+
 #buton:hover{
+    cursor: pointer;
+}
+
+#buton2:hover{
     cursor: pointer;
 }
 

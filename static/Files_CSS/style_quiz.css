@@ -240,6 +240,33 @@ car_text{
     color: #c0392b;
 }
 
+#buton_add2{
+    cursor: pointer;
+
+}
+
+#buton_add2:hover{
+    color: #c0392b;
+}
+
+#buton_add3{
+    cursor: pointer;
+
+}
+
+#buton_add3:hover{
+    color: #c0392b;
+}
+
+#buton_add4{
+    cursor: pointer;
+
+}
+
+#buton_add4:hover{
+    color: #c0392b;
+}
+
 #list_brands2{
     font-weight: 500;
     font-size: 1.2rem;
@@ -258,6 +285,32 @@ car_text{
 }
 
 #btnn:hover{
+    cursor: pointer;
+}
+
+#btnn2{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:#2929b4;
+    background-color: #bdbdf1;
+    padding: 7px;
+}
+
+#btnn2:hover{
+    cursor: pointer;
+}
+
+#btnn3{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color:#2929b4;
+    background-color: #bdbdf1;
+    padding: 7px;
+}
+
+#btnn3:hover{
     cursor: pointer;
 }
 

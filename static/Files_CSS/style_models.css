@@ -219,10 +219,42 @@ img {
     border-radius: 9%;
 }
 
+#btnn2{
+    font-size: 15px;
+    font-weight: 12px;
+    height: 75px;
+    width: 200px;
+    background-color: #ed933a;
+    border-radius: 9%;
+}
+
+
+#btnn3{
+    font-size: 15px;
+    font-weight: 12px;
+    height: 75px;
+    width: 200px;
+    background-color: #ed933a;
+    border-radius: 9%;
+}
+
+
 #btnn:hover{
     cursor: pointer;
     background-color: #f3b87d;
 }
+
+#btnn2:hover{
+    cursor: pointer;
+    background-color: #f3b87d;
+}
+
+
+#btnn3:hover{
+    cursor: pointer;
+    background-color: #f3b87d;
+}
+
 
 .butoane{
     margin-top: 75px;
