@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        CarWow
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/static/Files_CSS/style_quiz6.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container_masini">
+        <div onclick="message()" id="d1">
+            <img class="card-image" src="/static/Images/bmwx1_show.jpeg" alt=""> 
+            <div onclick="show_x1(event)" class="titlumasina">
+                <p>BMW X1</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d2">
+            <img class="card-image" src="/static/Images/bmwx2_show.jpeg" alt=""> 
+            <div onclick="show_x2(event)" class="titlumasina">
+                <p>BMW X2</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d3">
+            <img class="card-image" src="/static/Images/bmwx3_show.jpeg" alt=""> 
+            <div onclick="show_x3(event)" class="titlumasina">
+                <p>BMW X3</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d4">
+            <img class="card-image" src="/static/Images/bmwx4_show.jpeg" alt=""> 
+            <div onclick="show_x4(event)" class="titlumasina">
+                <p>BMW X4</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d5">
+            <img class="card-image" src="/static/Images/bmwx5_show.jpeg" alt=""> 
+            <div onclick="show_x5(event)" class="titlumasina">
+                <p>BMW X5</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d6">
+            <img class="card-image" src="/static/Images/bmwx6_show.jpeg" alt=""> 
+            <div onclick="show_x6(event)" class="titlumasina">
+                <p>BMW X6</p>
+            </div>
+        </div>
+
+        <div onclick="message()" id="d7">
+            <img class="card-image" src="/static/Images/bmwx7_showimage.jpeg" alt=""> 
+            <div onclick="show_x7(event)" class="titlumasina">
+                <p>BMW X7</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div_final">
+        <h1>Introdu un numar de la 1 la 7.</h1>
+
+        <input type="text", id="numere", name="numere">
+
+        <button onclick="validare()">Click here to validate</button>
+
+    </div>
+    
+
+    <script src="/static/Files_JS/quiz6.js"></script>
+    
+</body>
+</html>

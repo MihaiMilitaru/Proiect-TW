@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Models
+        </title>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href="/static/Files_CSS/style_models.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="nav-wrapper">
+            <div class="nav">
+                <a href="index" class="logo">
+                    <i class="bx bxs-car"></i>
+                    Car<span class="main-color">Wow</span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index">Home</a></li>
+
+                    <li>
+                        <div class="dropdown_models">
+                            <a href="models.html"><span class="btn">Models</span></a>
+                            <div class="dropdown_models-content">
+                                <a href="audi.html">Audi</a>
+                                <a href="bmw.html">BMW</a>
+                                <a href="mercedes.html">Mercedes</a>
+                            </div>
+                        </div>
+                        
+                    </li>
+
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li>
+                        <a href="#">
+                            <i class="bx bxs-search userlg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html">
+                            <i class="bx bxs-user userlg"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> -->
+
+            </div>
+
+        </nav>
+
+        <div class="butoane">
+            <button id="btnn" onclick="filtre_mercedes()">Mercedes Models</button>
+            <button id="btnn" onclick="filtre_bmw()">BMW Models</button>
+            <button id="btnn" onclick="filtre_audi()">Audi Models</button>
+
+        </div>
+
+
+        <div class="container_masini">
+    
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia3_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia4_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A4</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia5_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A5</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia6_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A6</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia7_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A7</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audia8_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI A8</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audiq3_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI Q3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audiq5_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI Q5</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audiq7_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI Q7</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audiq8_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI Q8</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/audiqtron_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>AUDI Q-TRON</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmw2_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 2</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmw3_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmW4_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 4</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmw5_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 5</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmw6_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 6</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmw7_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW SERIES 7</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx1_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X1</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx2_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X2</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx3_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx4_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X4</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx5_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X5</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx6_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X6</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/bmwx7_showimage.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>BMW X7</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/cla_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES CLA</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/cclass_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES C-CLASS</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/eclass_show.jpeg" alt="">
+                <div class="titlumasina">
+                    <p>MERCEDES E-CLASS</p>
+                </div>      
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/sclass_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES S-CLASS</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/maybach_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES S-CLASS MAYBACH</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/glb_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLB SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/glc_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLC SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/glc_coupe_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLC COUPE SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/gle_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLE SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/gle_coupe_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLC COUPE SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/gls_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES GLS SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/gwagon_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES G-WAGON SUV</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src="/static/Images/maybach_gls_show.jpeg" alt=""> 
+                <div class="titlumasina">
+                    <p>MERCEDES MAYBACH GLS SUV</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="/static/Files_JS/filtre.js"></script>
+
+    </body>
+
+    
+
+</html>

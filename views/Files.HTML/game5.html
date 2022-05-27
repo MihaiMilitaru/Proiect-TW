@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>
+                CarWow
+            </title>
+            <!-- GOOGLE FONTS -->
+            <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+            <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+            <link href="/static/Files_CSS/style_quiz.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1>Game 5</h1>
+        </div>
+        
+        <form>
+            <input type="text" id="first_name" name="first_name" placeholder="enter first name">
+
+            <input type="text" id="last_name" name="last_name" placeholder="enter last name">
+
+            <input type="date" id="birth_date" name="birth_date" placeholder="birth_date">
+
+            <select id="list_brands">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Skoda">Skoda</option>
+                <option value="Seat">Seat</option>
+                <option value="Ford">Ford</option>
+                <option value="Renault">Renault</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Nissan">Nissan</option>
+            </select>
+
+
+            <br><br>
+            <p>Enter 3 favourite models</p>
+            <br>
+
+            <textarea id="car_text1" rows="5" cols="20" placeholder="Enter car model, type, color, transmision.(Use ' ' between specs)"></textarea>
+
+            <textarea id="car_text2" rows="5" cols="20" placeholder="Enter car model, type, color, transmision.(Use ' ' between specs)"></textarea>
+
+            <textarea id="car_text3" rows="5" cols="20" placeholder="Enter car model, type, color, transmision.(Use ' ' between specs)"></textarea>
+
+            <br>
+
+             <!-- <input type="submit">-->
+
+
+        </form>
+       <button id="buton_add" onClick="functie_adaugare()">Add data</button> 
+
+        <button id="buton_add" onClick="functie_show()">View data</button>
+
+        <button id="buton_add" onClick="functie_delete()">Delete data</button>
+
+        <input type="number" id="nr" name="nr" placeholder="Enter ID to remove client">
+
+        <button id="buton_add" onClick="functie_update()">Update data</button>
+
+        <input type="number" id="nr2" name="nr2" placeholder="Enter ID to update client">
+
+        <select id="list_brands2" >
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Seat">Seat</option>
+            <option value="Ford">Ford</option>
+            <option value="Renault">Renault</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Honda">Honda</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Nissan">Nissan</option>
+        </select>
+
+        <script src="/static/Files_JS/quiz5.js"></script>
+        
+        
+    </body>
+
+</html>
+

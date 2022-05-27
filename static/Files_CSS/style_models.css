@@ -1,0 +1,233 @@
+:root {
+    --main-color: #c0392b;
+    --body-bg: #000000;
+    --box-bg: #0a0a53;
+    --text-color: #ffffff;
+
+    --space-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #24247e;
+}
+
+.nav {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    height: var(--nav-height);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-menu {
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu li ~ li {
+    margin-left: 1.7rem;
+}
+
+
+
+.nav li{
+    font-size: 1.3rem;
+}
+
+.nav-menu a:hover {
+    color: var(--main-color);
+}
+
+.nav-menu a.btn:hover{
+    color:#ffffff;
+}
+
+.userlg{
+    font-size: 1.50rem;
+}
+
+/* .................................................Dropdown models.................................................. */
+
+.dropdown_models{
+    position:relative;
+    display: inline-block;
+}
+
+
+.dropdown_models-content{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2929b4;
+}
+
+.btn{
+    padding: 10px;
+}
+
+.btn:hover{
+    border-radius: 5px;
+}
+
+.dropdown_models:hover .dropdown_models-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_poze{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#sedan_suv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .titlumasina a:hover{
+    color:#ffffff;
+}
+
+.card .titlumasina a{
+    color: #505055;
+}
+
+
+
+.container_masini{
+    margin-top: 50px;
+    gap:30px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f7;
+    width: 450px;
+    margin-bottom: 20px;
+    
+}
+.card-image{
+    height: 80%;
+    
+  
+}
+
+.titlumasina{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #505055;
+}
+
+.card:hover{
+    background-color: #353231;
+    cursor: pointer;
+    transform: translateY(5mm);
+    transition: 1s;
+}
+
+.card:hover a{
+    color: #ffffff;
+}
+
+
+.card:hover{
+    opacity: 70%;
+}
+
+.card:hover .titlumasina{
+    color: #ffffff;
+}
+
+.titlu_caroserie{
+    display: flex;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 300;   
+}
+
+.divt{
+    margin-left: 20px;
+}
+
+
+#btnn{
+    font-size: 15px;
+    font-weight: 12px;
+    height: 75px;
+    width: 200px;
+    background-color: #ed933a;
+    border-radius: 9%;
+}
+
+#btnn:hover{
+    cursor: pointer;
+    background-color: #f3b87d;
+}
+
+.butoane{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap:10px;
+}
