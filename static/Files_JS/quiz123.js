@@ -72,7 +72,7 @@ function reset_all(){
 
 let greendiv=document.getElementById("_green");
 let reddiv=document.getElementById("_red");
-let color_grey=reddiv.style.backgroundColor;
+// let color_grey=reddiv.style.backgroundColor;
 
     
 let time,time2;
@@ -97,12 +97,12 @@ window.onload=function(){
             const w = setTimeout(function(){
             if(document.getElementById("_red") != null && document.getElementById("_green")!= null){
                 if(clr){
-                document.getElementById("_red").style.backgroundColor=color_grey; 
+                document.getElementById("_red").style.backgroundColor="grey"; 
                 document.getElementById("_green").style.backgroundColor="green";
                 green_lights_passed++;    
                 }
                 else{
-                document.getElementById("_green").style.backgroundColor=color_grey;
+                document.getElementById("_green").style.backgroundColor="grey";
                 document.getElementById("_red").style.backgroundColor="red";
                 }
                 clr = !clr;

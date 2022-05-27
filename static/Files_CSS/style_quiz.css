@@ -193,14 +193,14 @@ input{
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    background-color: rgb(166, 166, 166);
+    background-color: grey;
 }
 
 #_green{
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    background-color:rgb(166, 166, 166);
+    background-color:grey;
 }
 
 #div_poza{

@@ -74,13 +74,47 @@ let clients=[{"first_name": "Mike",
 "fav_models":[{"model": "bmw x5",
 "type": "suv",
 "color": "blue",
-"transmision": "automatic"}, {"model": "bmw x5",
+"transmision": "automatic"}, {"model": "bmw 7-series",
+"type": "sedan",
+"color": "white",
+"transmision": "automatic"}, {"model": "audi q8",
 "type": "suv",
+"color": "orange",
+"transmision": "automatic"}]},
+
+{"first_name": "Owen",
+"last_name": "McGregor",
+"birthdate": "10-07-1996",
+"fav_brand": "Ford",
+"fav_models":[{"model": "ford mustang",
+"type": "coupe",
 "color": "blue",
-"transmision": "automatic"}, {"model": "bmw x5",
+"transmision": "automatic"}, {"model": "ford raptor",
+"type": "pick-up",
+"color": "red",
+"transmision": "automatic"}, {"model": "dodge charger",
+"type": "muscle",
+"color": "black",
+"transmision": "automatic"}]},
+
+{"first_name": "Tom",
+"last_name": "Mark",
+"birthdate": "12-02-2000",
+"fav_brand": "Lexus",
+"fav_models":[{"model": "lexus es 300-h",
+"type": "sedan",
+"color": "green",
+"transmision": "automatic"}, {"model": "toyota camry",
+"type": "sedan",
+"color": "grey",
+"transmision": "automatic"}, {"model": "toyota rav-4",
 "type": "suv",
-"color": "blue",
-"transmision": "automatic"}]}];
+"color": "brown",
+"transmision": "manual"}]}
+
+
+
+];
 
 // let clients=[];
 
