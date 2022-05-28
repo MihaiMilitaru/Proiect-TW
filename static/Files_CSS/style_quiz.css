@@ -317,3 +317,21 @@ car_text{
 .txtt{
     margin-bottom: 20px;
 }
+
+.veric{
+    display: none;
+    padding-left: 500px;
+    justify-content: center;
+    width: 400px;
+}
+
+.veric2{
+    display: none;
+    margin-left: 10px;
+    font-size: 75px;
+    
+}
+
+
+
+    

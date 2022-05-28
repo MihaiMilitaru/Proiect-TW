@@ -145,7 +145,7 @@ window.onload=function(){
                 }
             }
             if(greseala && ok != 40000){
-                alert("moarte");
+                alert("Vericu i-a cazut softu'");
                 ok=40000;
                 document.body.removeChild(document.getElementById("div_bmw_move"));
                 document.body.removeChild(document.getElementsByClassName("lights")[0]); 
@@ -187,6 +187,11 @@ window.onload=function(){
                 console.log(window.localStorage.getItem("maxGreen"));
                 document.body.appendChild(par2);
 
+                let d=document.getElementsByClassName("veric")[0];
+                d.style.display="flex";
+
+                let d2=document.getElementsByClassName("veric2")[0];
+                d2.style.display="flex";
 
             }
         }
