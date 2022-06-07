@@ -57,9 +57,28 @@ img {
     color: var(--text-color);
 }
 
+@keyframes rotire_logo {
+    0%{
+        color: white;
+    }
+
+    50%{
+        color:red;
+    }
+
+    100%{
+        color:white;
+    }
+
+}
+
 .logo {
     font-size: 2rem;
     font-weight: 900;
+}
+
+.logo{
+    animation: rotire_logo 4s infinite linear;
 }
 
 .nav-menu {
